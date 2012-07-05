@@ -2,11 +2,14 @@ source 'https://rubygems.org'
 
 gem 'rails'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
 end
+
+gem 'annotate', '~> 2.4.1.beta', group: :development
 
 group :assets do
   gem 'sass-rails',   '3.2.4'
