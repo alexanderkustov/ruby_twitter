@@ -1,1 +1,2 @@
-==STUFF about this project
+==About this project
+Thanks to mhartl this is an awesome way to learn ruby
